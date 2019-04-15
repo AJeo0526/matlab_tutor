@@ -1,0 +1,22 @@
+这篇文章介绍一下matlab的函数
+
+matlab的内置函数
+function y = mean(x)
+% comments
+commands
+
+function是关键字
+y是输出
+x是输入
+comments是注释
+commands是命令
+mean是function name(same as file name.m)
+
+matlab的输入一般都可以是矩阵或者向量
+表示对其中的每个元素都进行处理
+所以内部函数的实现是.* ./的方式
+
+匿名函数
+f = @(x) exp(-2*x);
+f为匿名函数，x为输入
+

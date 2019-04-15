@@ -1,0 +1,54 @@
+这篇文章介绍一下matlab编程的基本内容
+
+.m是matlab code file
+matlab是脚本语言，解释执行，不需要进行编译
+
+matlab编程界面
+new script创建脚本文件
+run运行脚本文件
+fx查看matlab提供的函数接口
+%注释当前行，选中一个区域之后点击comment全部注释，选择uncomment全部取消注释
+%%把代码变为语句块，可以只选择执行一个语句块
+点击行号设置断点，点击run启动debug模式，游标移动到变量显示变量的详细信息    
+    按continue执行到下一个断点，再次点击断点删除breakpoint
+通过indent对齐程式
+
+matlab中的关系操作符
+< <= > >= == && ||
+~=表示不等于!!!
+
+结构化程序设计的方法（函数，循环，条件）
+备注：每个语句块结束都要有end来表示终止
+    相当于c family language的{}
+if elseif else（if的子语句块没有{}，使用end结束）
+    if condition1
+        statement1
+    elseif condition2
+        statement2
+    else
+        statement3
+    end
+
+switch(case不用break，使用end结尾,default -> otherwise) 
+switch expression
+case value1
+    statement1
+case value2
+    statement2
+...
+otherwise
+    statement
+end
+
+while
+while expression
+    statement
+end
+
+for
+for varible=start:increment:end
+    commands
+end
+
+
+

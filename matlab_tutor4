@@ -1,0 +1,23 @@
+这篇文章介绍一下使用matlab编程的一点小技巧
+
+1、pre-allocating space to variables
+    matlab中使用变长的vector和matrix，使用array doubling的技术
+    如果提前直到需要占用多少空间，提前分配能够减少doubling的开销
+
+2、使用tic toc对程序的运行时间计时
+    tic 
+    commands
+    toc
+    备注：tic，toc为时钟的滴答声
+
+3、使用break终止循环
+
+4、matlab脚本的第一行应该使用clear clc清空所有变量和刷新命令行窗口，防止之前的
+    变量干扰运算结果
+
+5、使用;让命令的执行结果不做输出
+
+6、使用...续行（c语言的\）
+
+7、使用CTRL-C强制终止程序
+
